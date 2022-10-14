@@ -5,7 +5,7 @@ moment().format();
 //const bot = new Telegraf("5646350080:AAGfLNylrcQgEpdb8KnP18AB3ylElqNVpjA");
 const bot = new Composer();
 
-let date = new Date("Fri 14 Oct 2022 17:00:00");
+let date = new Date("Fri 14 Oct 2022 17:04:00");
  date = moment(date).format();
  console.log(date);
 
