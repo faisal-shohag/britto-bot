@@ -1,11 +1,11 @@
-const { Composer } = require('micro-bot')
+const { Telegraf } = require('telegraf');
 const schedule = require('node-schedule');
 const moment = require('moment/moment');
 moment().format(); 
-//const bot = new Telegraf("5646350080:AAGfLNylrcQgEpdb8KnP18AB3ylElqNVpjA");
-const bot = new Composer();
+const bot = new Telegraf("5646350080:AAGfLNylrcQgEpdb8KnP18AB3ylElqNVpjA");
 
-let date = new Date("Fri 14 Oct 2022 17:04:00");
+
+let date = new Date("Fri 14 Oct 2022 17:00:00");
  date = moment(date).format();
  console.log(date);
 
@@ -23,4 +23,4 @@ bot.hears("start", message => {
 
 
 
-module.exports = bot;
+bot.launch();
