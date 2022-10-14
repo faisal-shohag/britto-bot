@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "micro-bot": "^2.5.3",
+    "moment": "^2.29.4",
+    "node-schedule": "^2.1.0",
+    "telegraf": "^4.10.0"
+  },
+  "name": "britto-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro-bot",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faisal-shohag/britto-bot.git"
+  },
+  "author": "faisal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faisal-shohag/britto-bot/issues"
+  },
+  "homepage": "https://github.com/faisal-shohag/britto-bot#readme",
+  "description": ""
+}
